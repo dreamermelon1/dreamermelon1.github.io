@@ -7,12 +7,12 @@ jQuery(document).ready(function() {
 	mute = $('#mute');
 	muted = $('#muted');
 	close = $('#close');
-	song = new Audio('music/track1.ogg','music/track1.mp3');
+	song = new Audio(BigPoppa.mp3','music/Boysinthehood.mp3','music/FirstDayOut.mp3','music/Horses.mp3','music/Igetthebag.mp3','music/MotorSport.mp3','music/Noeffort.mp3','music/colt45.mp3','music/dopeman.mp3','music/feelitstill.mp3','music/fromthedtothea.mp3','music/golddigger.mp3','music/havana.mp3','music/hypnotize.mp3','music/iguessillsmoke.mp3','music/rockstar.mp3','music/slippery.mp3','music/straightouttacompton.mp3','music/thunder.mp3');
 	duration = song.duration;
 
 	if (song.canPlayType('audio/mpeg;')) {
     	song.type= 'audio/mpeg';
-    	song.src= 'music/track1.mp3';
+    	song.src= 'music/bigpoppa.mp3';
 	} else {
     	song.type= 'audio/ogg';
     	song.src= 'music/track1.ogg';
