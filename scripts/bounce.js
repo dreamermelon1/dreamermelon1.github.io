@@ -1,5 +1,5 @@
-var gameHeight = 320
-var gameWidth = 360
+var gameHeight = 500
+var gameWidth = 500
 var intervalOne,intervalTwo,timeoutOne,x
 var angle = 2
 var tempX = 0
