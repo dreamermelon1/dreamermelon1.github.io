@@ -7,6 +7,16 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script>
+			var msg1 = " | Dreamermelon.org |";
+			var speed=100;
+			function ScrollTitle() {
+				document.title=msg1;
+				msg1=msg1.substring(1,msg1.length)+msg1.charAt(0);
+				setTimeout("ScrollTitle()",speed);
+			}
+			ScrollTitle();
+		</script>
   </head>
   <body>
     <div class="container">
